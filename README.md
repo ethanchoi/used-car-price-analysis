@@ -17,7 +17,7 @@ This project analyzes a dataset of used car listings and builds predictive model
 | File | Description |
 |------|-------------|
 | what_drives_price_car.ipynb | Main notebook with full analysis, preprocessing, modeling, and insights |
-| vehicles.csv | Dataset used for analysis (if included) |
+| vehicles.csv | Dataset used for analysis (zip file included, unzip and move it /data/vehicles.csv |
 | README.md | Project documentation |
 
 ## CRISP-DM Steps
@@ -46,7 +46,7 @@ Models trained:
 - Linear Regression  
 - Lasso Regression  
 
-Metrics used: RMSE, R² Score
+Metrics used: Mean Square Error
 
 ### 5. Evaluation & Insights
 Key factors influencing price include:
@@ -77,15 +77,3 @@ git clone <your-repo-url>
 cd <your-repo-folder>
 jupyter notebook what_drives_price_car.ipynb
 ```
-
-Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-## License
-MIT License
-
-## Contributions
-Issues and pull requests are welcome.
